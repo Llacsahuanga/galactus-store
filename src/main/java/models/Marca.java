@@ -2,7 +2,7 @@ package models;
 
 import java.sql.Date;
 
-public class marca {
+public class Marca {
 	
 	private Integer idMarca;
     private String nombre;

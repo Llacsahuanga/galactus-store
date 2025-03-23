@@ -2,8 +2,8 @@ package models;
 
 import java.sql.Date;
 
-public class proveedor {
-	
+public class Proveedor {
+
 	private Integer idProveedor;
     private String tipoDocumento;
     private String documentoIdentidad;
@@ -92,5 +92,4 @@ public class proveedor {
 	}
     
     
-
 }
