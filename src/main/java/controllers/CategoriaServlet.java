@@ -29,7 +29,7 @@ public class CategoriaServlet extends HttpServlet {
     }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		List<Categoria> categorias = categoriaService.listarCategorias();
+		List<Categoria> categorias = categoriaService.listarCategorias(); //
 		request.setAttribute("categorias", categorias);
 		RequestDispatcher dispatcher = request.getRequestDispatcher("/views/categorias.jsp");
 		dispatcher.forward(request, response);
