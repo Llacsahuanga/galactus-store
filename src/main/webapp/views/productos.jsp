@@ -62,6 +62,8 @@
 	function agregarCarrito(idProducto){
 		console.log("agregarCarrito", idProducto);
 		
+		
+		
 		fetch('/galactus-store/carrito?idProducto='+idProducto,{
 			method: 'POST'
 		});
